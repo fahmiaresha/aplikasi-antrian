@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.woe">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WOE">
+        <activity android:name=".detail_catatan_pasien"></activity>
+        <activity android:name=".konfirmasi_daftar_antrian" />
+        <activity android:name=".detail_poliklinik" />
+        <activity android:name=".catatan_pasien_dokter_melihat_catatan" />
+        <activity android:name=".catatan_pasien_dokter_memberi_catatan" />
+        <activity android:name=".detail_antrian_catatan_dokter" />
+        <activity android:name=".detail_catatan_pasien_dokter" />
+        <activity android:name=".detail_notif_dokter" />
+        <activity android:name=".kirim_password" />
+        <activity android:name=".lupa_password" />
+        <activity android:name=".registrasi_akun_pasien" />
+        <activity android:name=".daftar_antrian_pasien" />
+        <activity android:name=".lihat_antrian_pasien" />
+        <activity android:name=".NotifDokter" />
+        <activity android:name=".NotifPasien" />
+        <activity android:name=".HistoryDokter" />
+        <activity android:name=".ProfileDokter" />
+        <activity android:name=".CatatanPasienDariDokter" />
+        <activity android:name=".JadwalSayaMenuDokter" />
+        <activity android:name=".Dokter" />
+        <activity android:name=".History" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Poliklinik" />
+        <activity android:name=".CatatanPasien" />
+        <activity android:name=".ProfilePasien" />
+        <activity android:name=".Pengumuman" />
+        <activity android:name=".MenuDokter" />
+        <activity android:name=".LOGIN">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuPasien" />
+        <activity android:name=".LoginPasien" />
+        <activity android:name=".LoginDokter" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
