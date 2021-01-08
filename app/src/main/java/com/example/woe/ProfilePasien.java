@@ -20,37 +20,37 @@ public class ProfilePasien extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
 
-//        home = findViewById(R.id.btn_home);
-//        home.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                home();
-//            }
-//        });
+        home = findViewById(R.id.btn_home);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                home();
+            }
+        });
 //
-//        history = findViewById(R.id.btn_history);
-//        history.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                history();
-//            }
-//        });
-//
-//        notif = findViewById(R.id.btn_notif);
-//        notif.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                notif();
-//            }
-//        });
-//
-//        profile = findViewById(R.id.btn_profile);
-//        profile.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                profile();
-//            }
-//        });
+        history = findViewById(R.id.btn_history);
+        history.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                history();
+            }
+        });
+
+        notif = findViewById(R.id.btn_notif);
+        notif.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                notif();
+            }
+        });
+
+        profile = findViewById(R.id.btn_profile);
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                profile();
+            }
+        });
     }
 
     private void home(){
