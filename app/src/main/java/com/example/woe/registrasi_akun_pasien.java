@@ -90,19 +90,6 @@ public class registrasi_akun_pasien extends AppCompatActivity {
                                     }
                                 });
                                 dialog.show();
-//                                AlertDialog.Builder builder= new AlertDialog.Builder(registrasi_akun_pasien.this);
-//                                builder.setTitle("Success");
-//                                builder.setMessage("You're already register");
-//                                builder.setPositiveButton("Oke",
-//                                        new DialogInterface.OnClickListener() {
-//                                            @Override
-//                                            public void onClick(DialogInterface dialog, int which) {
-//                                                dialog.dismiss();
-//                                                finish();
-//                                            }
-//                                        });
-//                                AlertDialog dialog= builder.create();
-//                                dialog.show();
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();

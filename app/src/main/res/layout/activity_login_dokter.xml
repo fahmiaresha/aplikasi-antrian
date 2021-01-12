@@ -16,13 +16,13 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/email_dokter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:background="@drawable/custom_edit_text"
             android:ems="10"
-            android:hint="Username"
+            android:hint="Email"
             android:inputType="textPersonName"
             android:paddingStart="60dp"
             android:paddingLeft="60dp"
@@ -33,7 +33,7 @@
             android:textSize="14sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/password_dokter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/custom_edit_text"

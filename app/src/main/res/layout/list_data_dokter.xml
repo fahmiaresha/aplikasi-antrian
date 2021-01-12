@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="104dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/dokter"/>
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_toRightOf="@+id/gambar"
+            android:text="Dr. Eko Purwanto, Sp. BD"
+            android:textColor="@color/btn_hijau"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/status_dokter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_toRightOf="@+id/gambar"
+            android:text="I'm ready"
+
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

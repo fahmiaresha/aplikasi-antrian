@@ -67,13 +67,14 @@
                     android:src="@drawable/note" />
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/outlinedTextField2"
+
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Keluhan">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/keluhan"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="textMultiLine"
