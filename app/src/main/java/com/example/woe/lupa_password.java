@@ -1,6 +1,5 @@
 package com.example.woe;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -80,21 +79,21 @@ public class lupa_password extends AppCompatActivity {
                             if (status.equals("ok")){
                                 sendpassword();
                             }
-                            if (status.equals("email_tidak_ditemukan")){
-                                //email_tidak_ditemukan
-                                final Dialog dialog = new Dialog(lupa_password.this);
-                                dialog.setContentView(R.layout.alert_email_tidak_ditemukan);
-                                dialog.setTitle("alert");
-
-                                Button btn_alert = (Button) dialog.findViewById(R.id.btn_ok_email_tidak_ditemukan);
-                                btn_alert.setOnClickListener(new View.OnClickListener() {
-                                    @Override
-                                    public void onClick(View v) {
-                                        dialog.dismiss();
-                                    }
-                                });
-                                dialog.show();
-                            }
+//                            if (status.equals("email_tidak_ditemukan")){
+//                                //email_tidak_ditemukan
+//                                final Dialog dialog = new Dialog(lupa_password.this);
+//                                dialog.setContentView(R.layout.alert_email_tidak_ditemukan);
+//                                dialog.setTitle("alert");
+//
+//                                Button btn_alert = (Button) dialog.findViewById(R.id.btn_ok_email_tidak_ditemukan);
+//                                btn_alert.setOnClickListener(new View.OnClickListener() {
+//                                    @Override
+//                                    public void onClick(View v) {
+//                                        dialog.dismiss();
+//                                    }
+//                                });
+//                                dialog.show();
+//                            }
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }

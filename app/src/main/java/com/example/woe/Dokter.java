@@ -139,6 +139,7 @@ class Adapter extends BaseAdapter {
     Context context;
     LayoutInflater inflater;
     ArrayList<dataObject> model;
+
     public Adapter(Context context, ArrayList<dataObject>model){
         inflater=LayoutInflater.from(context);
         this.context=context;
